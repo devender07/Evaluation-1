@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+header{
+    min-width: 1512px;
+    height: 588px;
+    background: url('./hero-1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: ZCOOL KuaiLe;
+}
+.logo{
+    width: 106px;
+    height: 117px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 88px;
+}
+.logo img{
+    margin-top: 27px;
+}
+nav{
+    width: 583px;
+    height:52px;
+    margin-top: 46px;
+    border-radius: 20px;
+    background: #000;
+    padding: 16px;
+    position: relative;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 15px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+nav img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    height: 8px;
+    width: 16px;
+}
+.nav-button{
+    all: unset;
+    margin-top: 54px;
+    margin-right: 89px;
+    padding: 10px 16px;
+    border-radius: 15.44px;
+    background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    text-align: center;
+}
+
+.hero-text{
+    min-width: 1262px;
+    height: 108px;
+    
+    margin-top: 276px;
+    margin-left: 123px;
+    margin-right: 127px;
+    margin-bottom:204px;
+}
+.hero-text h2{
+    padding: 0;
+    margin: 0;
+    color: #FBF6F6;
+    font-family: Shojumaru;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 53.55px;
+    text-align: center;
+}
+.main-1{
+    min-width: 1512px;
+    height: 716px;
+    display: flex;
+    justify-content: space-between;
+    background: #191818;
+
+}
+.info{
+    margin-top: 89px;
+    margin-left: 116px;
+    font-family: Shojumaru;
+}
+.info h2{
+    color: #ED0137;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 40.56px;
+    padding-bottom: 24px;
+}
+.info p{
+    width: 587px;
+    font-family: ZCOOL KuaiLe;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.56px;
+    text-align: left;
+    color: white;
+    padding-bottom: 24px;
+}
+.info button{
+    all: unset;
+    padding: 10px 16px;
+    padding: 17.03px 21.29px 17.03px 21.29px;
+    border-radius: 21.92px;
+    color: white;
+    background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+
+}
+.image{
+    width: 795px;
+    height: 795px;
+    background: url("./hero-2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-2{
+    min-width: 1512px;
+    height: 716px;
+    background: url("./roadmap.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #191818;
+}
+.main-2 h2{
+    font-family: Shojumaru;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 52.36px;
+    text-align: center;
+    color: white;
+    padding-top: 64px;
+}
+.container{
+    display: flex;
+    min-width: 1159.1px;
+    height: 349px;
+    justify-content: center;
+    margin-top: 228px;
+    gap: 69.77px;
+}
+.card{
+    width: 237.06px;
+    height: 349px;
+    border-radius: 13.17px;  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    position: relative;
+   
+}
+.card::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("./card.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-1{
+    background: url("./card_1.png");
+}
+.card-2{
+    background: url("./card_2.png");
+}
+.card-3{
+    background: url("./card_3.png");
+}
+.card-4{
+    background: url("./card_4.png");
+}
+.main-3{
+    min-width: 1512px;
+    height: 716px;
+    background: #191818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-1{
+    background: url("./hero-3.png");
+    background-size: cover;
+    width: 503px;
+    height: 503px;
+    margin-left: 86px;
+}
+.faq{
+    margin-right: 189px;
+}
+.faq h2{
+    font-family: Shojumaru;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 52.36px;
+    text-align: center;
+    color: red;
+}
+.faq div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 640px;
+    min-height: 77px;
+    border-radius: 20px;
+    border: 1px ;
+    border: 1px solid #ED0137;
+    margin: 8px 0px;
+}
+footer{
+    min-width: 1512px;
+    height: 428px;
+    background: linear-gradient(180deg, #030405 0%, #120101 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.footer-logo img{
+    width: 200px;
+    height: 221px;
+}
+footer h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.64px;
+    letter-spacing: 1.7090909481048584px;
+    color: red;
+}
+.footer-links{
+    min-width: 618px;
+    height: 20px;
+    display: flex;
+    gap: 32px ;
+    margin-top: 24px;
+    color: white;
+    font-family: Poppins;
+    font-size: 12.82px;
+    font-weight: 600;
+    line-height: 19.23px;
+}
+.footer-social{
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+}
+li{
+    list-style: none;
+}
